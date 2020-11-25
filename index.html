@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <section class="info">
+        <h2>Calculadora de IMC</h2>
+        <div class="imc">
+            <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
+        </div>
+        <div class="imc-example">
+            
+            <p> Exemplo de como calcular o IMC:</p>
+                <br>
+            <p> IMC = 80 kg ÷ (1,80 m × 1,80 m) = 24,69 kg/m2 (Peso ideal)</p>
+                <br>
+        <p>Utilize a calculadora abaixo para fazer o seu cálculo:</p>
+            
+            
+        </div>
+        
+    </section>
+
+
+    <div class="container">
+        
+        <form>
+            <span>Nome:</span><input type="text" id="nome">
+            <span>Peso:</span><input type="number" id="peso">
+            <span>Altura:</span><input type="number" id="altura">
+            <div class="result" id='resultado'></div>
+            <button id="calcular">Calcular</button>
+        </form>
+
+
+    </div>
+
+    <script src="Javascript/calc.js"></script>
+</body>
+</html>
